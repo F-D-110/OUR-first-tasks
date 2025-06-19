@@ -1,0 +1,17 @@
+#Third Task 
+
+public class RecursiveSum {
+    public static int recursiveSum(int[] array, int index) {
+        if (index == array.length) {
+            return 0;
+        }
+
+        return array[index] + recursiveSum(array, index + 1);
+    }
+
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5};
+        int sum = recursiveSum(array, 0);
+        System.out.println("Sum of Array Elements: " + sum);
+    }
+}
