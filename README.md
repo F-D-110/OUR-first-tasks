@@ -1,10 +1,5 @@
 # OUR-first-tasks
 
-
-
-
-
-
 import java.util.Stack;
 
 public class ArrayReversal {
@@ -37,3 +32,9 @@ public class ArrayReversal {
         }
     }
 }
+
+#OutPut
+Original Array:
+1 2 3 4 5 
+Reversed Array:
+5 4 3 2 1 
