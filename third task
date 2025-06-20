@@ -15,3 +15,6 @@ public class RecursiveSum {
         System.out.println("Sum of Array Elements: " + sum);
     }
 }
+
+#OutPut
+Sum of Array Elements: 15
